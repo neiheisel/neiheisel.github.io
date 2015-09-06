@@ -1,0 +1,20 @@
+# Site settings
+title: Jake Neiheisel -- Assistant Professor of Political Science
+author: Jake Neiheisel
+author_title: Assistant Professor of Political Science
+
+email: neiheij@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://neiheisel.github.io" # the base hostname & protocol for your site
+
+google_scholar_url: https://scholar.google.com/citations?hl=en&user=aFWS0ooAAAAJ&view_op=list_works&gmla=AJsN-F5S94VkPko9Tk7-p0XcfmYOep5TSYTBBbXxKwgKGh9Ct7hCupj1Bf_1yc-7_QzyWrRyQl51mrdVs7wJeyCR8SLqc0qXFDNC9hCRUGWqwumNuzBmnkkAC7Zkd2ay2ucxfazpvdBdRA4HwpkZ3OWAkEpV12L892EiSOS2i5rBMNWvF6OjxNc
+linkedin_url: https://www.linkedin.com/pub/jacob-neiheisel/35/223/20b
+github_url: https://www.github.com/neiheisel
+cv_url: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwb2xpc2NpbmVpaGVpc2VsfGd4OjQ4YjQ2OTZmODA2ZjZmYmY
+
+# Build settings
+markdown: kramdown

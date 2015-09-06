@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     background: none;
 }
 /* ==========================================================================
-  Layout 
+  Layout
    ========================================================================== */
 
 #page-welcome {
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
 }
 /* ==========================================================================
-   Portfolio   
+   Portfolio
    ========================================================================== */
 
 #grid-controls-wrapper {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .isotope, .isotope .isotope-item {
     /* change duration value to whatever you like */
-    
+
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -ms-transition-duration: 0.8s;
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     background: #000;
     background: rgba(0, 0, 0, 0.7);
-    background: url(../img/loading.gif) no-repeat center center;
+    background: url(/img/loading.gif) no-repeat center center;
     height: 32px;
     left: 20px;
     position: fixed;
@@ -225,16 +225,16 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0;
 }
 .vegas-overlay {
-    background: transparent url(../img/overlays/16.png);
+    background: transparent url(/img/overlays/16.png);
     opacity: 0.5;
-    
+
 }
 .vegas-background {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
     max-width: none !important;
     /* counteracts global img modification by twitter bootstrap library */
-    
+
     z-index: -2;
 }
 .vegas-overlay, .vegas-background {
@@ -272,13 +272,13 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 .next {
-    background: url("../img/next.png");
+    background: url("/img/next.png");
     margin-right: 70px;
     right: 0;
     opacity: 0.3;
 }
 .prev {
-    background: url("../img/prev.png");
+    background: url("/img/prev.png");
     margin-left: 70px;
     left: 0;
     opacity: 0.3;
@@ -385,7 +385,7 @@ label.valid {
   padding: 4px 18px;
 }
 /* ==========================================================================
-   Charts   
+   Charts
    ========================================================================== */
 
 .chart {
@@ -459,6 +459,17 @@ label.valid {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+.btn-linkedin:hover {
+    color: #015786;
+}
+.btn-scholar:hover {
+    color: #D3492C;
+}
+.btn-github:hover {
+    color: #BAB1A8;
+}
+
+
 .btn-twitter:hover {
     color: #2BA9E0;
 }
@@ -470,9 +481,6 @@ label.valid {
 }
 .btn-instagram:hover {
     color: #BAB1A8;
-}
-.btn-linkedin:hover {
-    color: #015786;
 }
 .btn-pinterest:hover {
     color: #CA2128;
