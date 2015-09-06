@@ -543,3 +543,7 @@ label.valid {
 .quote {
   font-style: italic;
 }
+
+.black {
+  color: black;
+}
