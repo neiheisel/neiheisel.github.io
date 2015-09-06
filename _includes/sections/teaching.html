@@ -13,10 +13,14 @@
                       <h3>University at Buffalo</h3>
                   </header>
 
-                  <p>PSC307: Political Parties</p>
-                  <p>PSC101: Introduction to American Politics (Spring 2015)</p>
-                  <p>PSC 101: Introduction to American Politics</p>
-                  <p>PSC 505: Seminar in American Politics (Graduate)</p>
+                  {% for class in site.data.syllabi_at_ub %}
+                    <p>
+                      <a target="_blank" href="{{ class.url }}">
+                        {{ class.name }}
+                      </a>
+                    </p>
+                  {% endfor %}
+
               </article>
           </div>
           <div class="col-md-6">
@@ -25,10 +29,13 @@
                       <h3>Denison</h3>
                   </header>
 
-                  <p>Judicial Politics</p>
-                  <p>Political Parties in the American Mold</p>
-                  <p>Election Reform in America</p>
-                  <p>Introduction to American Politics</p>
+                  {% for class in site.data.syllabi_at_denison %}
+                    <p>
+                      <a target="_blank" href="{{ class.url }}">
+                        {{ class.name }}
+                      </a>
+                    </p>
+                  {% endfor %}
               </article>
           </div>
       </div>
