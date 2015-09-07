@@ -29,13 +29,13 @@
                   <li class="mix {{ pub.categories }}">
                     <div class="panel {% if pub.journal %} panel-default {% else %} panel-info {% endif %}">
                       <div class="panel-body black">
-                        <p>{{ pub.authors }}. {{pub.year}}. "{{ pub.name }}" <a type="button" data-toggle="modal" data-target="#publicationModal{{ pub.unique-id }}">more</a></p>
+                        <p>{{ pub.authors }}. {% if pub.year %} {{pub.year}}. {% endif %} "{{ pub.name }}" <a type="button" data-toggle="modal" data-target="#publicationModal{{ pub.unique-id }}">more</a></p>
                       </div>
                       <div class="panel-footer">
                         {% if pub.journal %}
                           {{ pub.journal }}
                         {% else %}
-                          Working paper {{ pub }}
+                          Working paper
                         {% endif %}
                       </div>
                     </div>

@@ -551,3 +551,7 @@ label.valid {
 .panel-footer {
   color: black;
 }
+
+.panel-info > .panel-footer {
+  background-color: #bce8f1;
+}
