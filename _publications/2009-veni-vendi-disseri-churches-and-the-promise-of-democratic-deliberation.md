@@ -1,5 +1,5 @@
 ---
-unique-id: 6
+unique-id: veni-vendi-disseri-churches-and-the-promise-of-democratic-deliberation
 authors: Neiheisel, Jacob R., Paul A. Djupe, and Anand E. Sokhey
 categories: religion-and-politics
 year: 2009

@@ -1,4 +1,5 @@
 ---
+unique-id: on-the-limits-of-persuasion
 authors: Neiheisel, Jacob R., and Sarah Niebler
 categories: political-communication
 year: 2015

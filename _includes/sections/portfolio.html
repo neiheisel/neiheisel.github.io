@@ -23,9 +23,8 @@
             </div>
 
             <div>
-
               <ul id="grid" class="grid-wrapper">
-                {% for pub in site.publications %}
+                {% for pub in site.publications reversed %}
                   <li class="mix {{ pub.categories }}">
                     <div class="panel {% if pub.journal %} panel-default {% else %} panel-info {% endif %}">
                       <div class="panel-body black">

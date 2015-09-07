@@ -1,5 +1,5 @@
 ---
-unique-id: 3
+unique-id: eletion-administration-and-the-pure-effect-of-voter-registration-on-turnout
 authors: Burden, Barry C., and Jacob R. Neiheisel
 categories: election-administration
 year:    2013

@@ -1,5 +1,5 @@
 ---
-unique-id: 7
+unique-id: intra-organizational-contraints-on-churches-public-witness
 authors: Neiheisel, Jacob R., and Paul A. Djupe
 categories: religion-and-politics
 year: 2008
