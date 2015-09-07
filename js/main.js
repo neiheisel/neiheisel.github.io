@@ -55,7 +55,10 @@ $(document).ready(function() {
         scrollThreshold: 0.5,
         scrollSpeed: 750,
         filter: ":not(.external)",
-        easing: "swing"
+        easing: "swing",
+        begin: function(){
+          $('.navbar-collapse').collapse('hide')
+        }
     });
 
     /* VEGAS Home Slider */
