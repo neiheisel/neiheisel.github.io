@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
-
     /* Scroll hire me button to contact page */
-    $('.hire-me').click(function() {
+    $('.contact-me').click(function() {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);
@@ -10,14 +9,12 @@ $(document).ready(function() {
     });
 
     /* For Bootstrap current state on portfolio sorting */
-
     $('ul.nav-pills li a').click(function(e) {
         $('ul.nav-pills li.active').removeClass('active')
         $(this).parent('li').addClass('active')
     })
 
     /* portfolio mixitup */
-
     $(window).load(function() {
         var $container = $('.grid-wrapper');
         $container.isotope({
@@ -46,22 +43,10 @@ $(document).ready(function() {
         });
     });
 
-
-    /* Magnific Popup */
-    $('.grid-wrapper').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
-
     /* Sticky menu */
     $(".navbar").sticky({
         topSpacing: 0
     });
-
 
     /* Scroll spy and scroll filter */
     $('#main-menu').onePageNav({
@@ -73,18 +58,16 @@ $(document).ready(function() {
         easing: "swing"
     });
 
-
     /* VEGAS Home Slider */
-
-	    $('#page-welcome').vegas({
-        slides: [
-            { src: '/img/slider/01.jpg' },
-            { src: '/img/slider/02.jpg' },
-            { src: '/img/slider/03.jpg' },
-			      { src: '/img/slider/04.jpg' }
-        ],
-    overlay: true
-});
+    $('#page-welcome').vegas({
+      slides: [
+          { src: '/img/slider/01.jpg' },
+          { src: '/img/slider/02.jpg' },
+          { src: '/img/slider/03.jpg' },
+		      { src: '/img/slider/04.jpg' }
+      ],
+      overlay: true
+    });
 
     $("#vegas-next").click(function() {
         $('#page-welcome').vegas('next');
@@ -92,7 +75,5 @@ $(document).ready(function() {
     $("#vegas-prev").click(function() {
        $('#page-welcome').vegas('previous');
     });
-
-
 
 });
