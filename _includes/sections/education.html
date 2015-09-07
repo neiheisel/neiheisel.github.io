@@ -7,33 +7,17 @@
             <p class="section-subtitle quote">"Religion, morality, and knowledge, being necessary to good government and the happiness of mankind, school and the means of education shall forever be encouraged." -- The Ohio Ordinance of 1787, Article III.</p>
         </header>
         <div class="row">
+          {% for degree in site.data.degrees %}
             <div class="col-md-6">
                 <article class="education">
                     <header>
-                        <h3>Ph.D. in Political Science</h3>
-                        <p>University of Wisconsin - Madison - <strong>Graduated:</strong> 2013</p>
+                        <h3>{{ degree.name }}</h3>
+                        <p>{{ degree.institution }} - <strong>Graduated:</strong> {{ degree.year }}</p>
                     </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                    <p>{{ degree.details }}</p>
                 </article>
             </div>
-            <div class="col-md-6">
-                <article class="education">
-                    <header>
-                        <h3>M.A. in Political Science</h3>
-                        <p>University of Wisconsin - Madison - <strong>Graduated:</strong> 2008</p>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                </article>
-            </div>
-            <div class="col-md-6">
-                <article class="education">
-                    <header>
-                        <h3>B.A. in Political Science</h3>
-                        <p>Denison University - <strong>Graduated:</strong> 2007</p>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                </article>
-            </div>
+          {% endfor %}
         </div>
     </div>
 </section>
