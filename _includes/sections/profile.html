@@ -12,9 +12,11 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <p>I am an Assistant Professor of Political Science at the University at Buffalo, SUNY. I previously taught at Denison University.</p>
-                <p>My research interests include: political behavior, election administration, parties, religion and politics, and political communication.</p>
-                <p>My work has appeared in such outlets as Legislative Studies Quarterly, Political Research Quarterly, American Politics Research, Political Communication, Social Science Quarterly, and Polity.</p>
+              {% for paragraph in site.data.bio %}
+                <p>
+                  {{ paragraph.line }}
+                </p>
+              {% endfor %}
             </div>
         </div>
     </div>
