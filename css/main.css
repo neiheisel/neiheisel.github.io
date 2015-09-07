@@ -140,8 +140,8 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 #grid .mix {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 175px;
     vertical-align: top;
     margin: 20px 20px 20px 0;
     color: #fff;
@@ -153,8 +153,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 #grid .mix .overlay {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 175px;
     position: absolute;
     opacity: 0;
 	top:0;
@@ -545,5 +545,9 @@ label.valid {
 }
 
 .black {
+  color: black;
+}
+
+.panel-footer {
   color: black;
 }

@@ -28,8 +28,9 @@
                   <li class="mix {{ pub.categories }}">
                     <div class="panel panel-default">
                       <div class="panel-body black">
-                        {{ pub.name }}
+                        {{ pub.authors }}. {{pub.year}}. "{{ pub.name }}"
                       </div>
+                      <div class="panel-footer">{{ pub.journal }} {{ pub.volume}}({{pub.issue}}): {{pub.pages}}</div>
                     </div>
                   </li>
                 {% endfor %}
