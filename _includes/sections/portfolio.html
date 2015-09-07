@@ -12,25 +12,32 @@
                 <ul class="nav nav-pills center-pills grid-controls">
                     <li class="active filter"><a href="javascript:void(0)" data-filter="*">All</a>
                     </li>
-                    <li class="filter"><a href="javascript:void(0)" data-filter=".political-communication">Political Communication</a>
+                    {% for filter in site.data.publication_filters %}
+                    <li class="filter">
+                      <a href="javascript:void(0)" data-filter="{{filter.class}}">
+                        {{ filter.name }}
+                      </a>
                     </li>
-                    <li class="filter"><a href="javascript:void(0)" data-filter=".religion-and-politics">Religion and Politics</a>
-                    </li>
-                    <li class="filter"><a href="javascript:void(0)" data-filter=".election-administration">Election Administration</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
 
             <div>
 
               <ul id="grid" class="grid-wrapper">
-                {% for pub in site.data.publications %}
+                {% for pub in site.publications %}
                   <li class="mix {{ pub.categories }}">
-                    <div class="panel panel-default">
+                    <div class="panel {% if pub.journal %} panel-default {% else %} panel-info {% endif %}">
                       <div class="panel-body black">
                         <p>{{ pub.authors }}. {{pub.year}}. "{{ pub.name }}" <a type="button" data-toggle="modal" data-target="#publicationModal{{ pub.unique-id }}">more</a></p>
                       </div>
-                      <div class="panel-footer">{{ pub.journal }} {{ pub.volume}}({{pub.issue}}): {{pub.pages}}</div>
+                      <div class="panel-footer">
+                        {% if pub.journal %}
+                          {{ pub.journal }}
+                        {% else %}
+                          Working paper {{ pub }}
+                        {% endif %}
+                      </div>
                     </div>
                   </li>
                 {% endfor %}
@@ -41,7 +48,7 @@
 </section>
 <!-- portfolio ends -->
 
-{% for pub in site.data.publications %}
+{% for pub in site.publications %}
   <!-- Modal -->
   <div class="modal fade" id="publicationModal{{ pub.unique-id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -55,11 +62,12 @@
           <p>{{ pub.authors }}. "{{ pub.name }}" {{ pub.year }}. {{ pub.journal }} {{ pub.volume}}({{pub.issue}}): {{pub.pages}}</p>
 
           <h4>Abstract:</h4>
-          <p>{{ pub.abstract }}</p>
+          <p>{{ pub.content }}</p>
 
           <h4>Additional Resources:</h4>
-          <p></p>
-          <p></p>
+            {% for resource in pub.additional_materials %}
+              <p><a target="_blank" href="{{resource.url}}">{{resource.name}}</a></p>
+            {% endfor %}
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>

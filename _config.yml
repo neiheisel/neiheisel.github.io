@@ -30,3 +30,6 @@ quotes:
 
 # Build settings
 markdown: kramdown
+
+collections:
+- publications

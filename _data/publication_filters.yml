@@ -1,0 +1,6 @@
+- name: Political Communication
+  class: .political-communication
+- name: Religion and Politics
+  class: .religion-and-politics
+- name: Election Administration
+  class: .election-administration
