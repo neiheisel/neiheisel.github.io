@@ -23,5 +23,7 @@ cv_url: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwb
 # Build settings
 markdown: kramdown
 
+exclude: ["bin"]
+
 collections:
 - publications
