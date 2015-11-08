@@ -20,14 +20,6 @@ linkedin_url: https://www.linkedin.com/pub/jacob-neiheisel/35/223/20b
 github_url: https://www.github.com/neiheisel
 cv_url: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwb2xpc2NpbmVpaGVpc2VsfGd4OjQ4YjQ2OTZmODA2ZjZmYmY
 
-quotes:
-  profile: "\"If angels were to govern men, neither external nor internal controls on government would be necessary.\" -- Federalist # 51"
-  education: "\"Religion, morality, and knowledge, being necessary to good government and the happiness of mankind, school and the means of education shall forever be encouraged.\" -- The Ohio Ordinance of 1787, Article III"
-  portfolio: "A selection of recent publications and working papers"
-  experiences: ""
-  teaching: "Recent course syllabi"
-  contact: ""
-
 # Build settings
 markdown: kramdown
 
