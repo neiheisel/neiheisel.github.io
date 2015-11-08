@@ -1,5 +1,4 @@
 ---
-unique-id: the-use-of-party-brand-labels-in-congressional-election-campaigns
 authors: Neiheisel, Jacob R., and Sarah Niebler
 categories: political-communication
 year:    2013
@@ -10,6 +9,8 @@ volume:  38
 issue:   3
 pages:
 additional_materials:
+  - name:
+    url:
 ---
 
 This is another abstract

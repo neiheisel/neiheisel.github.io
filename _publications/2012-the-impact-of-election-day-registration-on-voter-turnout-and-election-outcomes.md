@@ -1,5 +1,4 @@
 ---
-unique-id: the-impact-of-election-day-registration-on-voter-turnout-and-election-outcomes
 authors: Neiheisel, Jacob R., and Barry C. Burden
 categories: election-administration
 year:    2012

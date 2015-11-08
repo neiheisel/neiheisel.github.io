@@ -1,9 +1,8 @@
 ---
-unique-id: how-religious-communities-affect-political-participation-among-latinos
 authors: Djupe, Paul A., and Jacob R. Neiheisel
 categories: religion-and-politics
 year:    2012
-name:    "How Religious Communities Affect Political Participation Among Latinos."
+name:    How Religious Communities Affect Political Participation Among Latinos.
 journal: Social Science Quarterly
 paper_url:
 volume:  93

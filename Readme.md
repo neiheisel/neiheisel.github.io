@@ -35,7 +35,6 @@ Each publication should start with the following:
 
 ```
 ---
-unique-id: same-as-file
 authors: Neiheisel
 categories: religion-and-politics
 year: year-of-pub
