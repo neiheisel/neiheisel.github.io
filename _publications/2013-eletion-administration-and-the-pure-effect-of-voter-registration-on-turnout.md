@@ -1,8 +1,8 @@
 ---
 authors: Burden, Barry C., and Jacob R. Neiheisel
-categories: election-administration
+categories: ["election-administration"]
 year:    2013
-name:    Election Administration and the Pure Effect of Voter Registration on Turnout.
+name:    "Election Administration and the Pure Effect of Voter Registration on Turnout"
 journal: Political Research Quarterly
 volume:  66
 issue:   1

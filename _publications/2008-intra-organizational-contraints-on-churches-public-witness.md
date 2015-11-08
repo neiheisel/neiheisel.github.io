@@ -1,8 +1,8 @@
 ---
 authors: Neiheisel, Jacob R., and Paul A. Djupe
-categories: religion-and-politics
+categories: ["religion-and-politics"]
 year: 2008
-name: "Intra-Organizational Constraints on Churches' Public Witness."
+name: "Intra-Organizational Constraints on Churches' Public Witness"
 journal: Journal for the Scientific Study of Religion
 paper_url:
 volume: 47

@@ -28,7 +28,7 @@
                   <li class="mix {{ pub.categories }}">
                     <div class="panel {% if pub.journal %} panel-default {% else %} panel-info {% endif %}">
                       <div class="panel-body black">
-                        <p>{{ pub.authors }}. {% if pub.year %} {{pub.year}}. {% endif %} "{{ pub.name }}" <a type="button" data-toggle="modal" data-target="#publicationModal{{ pub.name | slugify }}">more</a></p>
+                        <p>{{ pub.authors }}. {% if pub.year %} {{pub.year}}. {% endif %} &quot;{{ pub.name }}.&quot; <a type="button" data-toggle="modal" data-target="#publicationModal{{ pub.name | slugify }}">more</a></p>
                       </div>
                       <div class="panel-footer">
                         {% if pub.journal %}
@@ -58,7 +58,7 @@
         </div>
         <div class="modal-body">
           <h4>Full Citation:</h4>
-          <p>{{ pub.authors }}. &quot;{{ pub.name }}&quot; {{ pub.year }}. {{ pub.journal }} {{ pub.volume}}({{pub.issue}}): {{pub.pages}}</p>
+          <p>{{ pub.authors }}. &quot;{{ pub.name }}.&quot; {{ pub.year }}. {{ pub.journal }} {{ pub.volume}}({{pub.issue}}): {{pub.pages}}</p>
 
           <h4>Abstract:</h4>
           <p>{{ pub.content }}</p>
