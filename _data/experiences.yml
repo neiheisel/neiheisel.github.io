@@ -1,5 +1,10 @@
 - name: University at Buffalo
   title: Assistant Professor of Political Science
-  location: Buffalo, NY
-  time: 2014 - Current
-  details: Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.
+  location: 'Buffalo, NY'
+  time: ''
+  details: 'Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.'
+- name: University at Buffalo
+  title: Assistant Professor of Political Science
+  location: 'Buffalo, NY'
+  time: ''
+  details: 'Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.'
